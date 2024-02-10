@@ -1,0 +1,12 @@
+D:\Projects\MaticStaking\Core.Utilities\bin\Debug\net5.0\Core.Utilities.deps.json
+D:\Projects\MaticStaking\Core.Utilities\bin\Debug\net5.0\Core.Utilities.dll
+D:\Projects\MaticStaking\Core.Utilities\bin\Debug\net5.0\Core.Utilities.pdb
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\Core.Utilities.csproj.AssemblyReference.cache
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\Core.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\Core.Utilities.AssemblyInfoInputs.cache
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\Core.Utilities.AssemblyInfo.cs
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\Core.Utilities.csproj.CoreCompileInputs.cache
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\Core.Utilities.dll
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\refint\Core.Utilities.dll
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\Core.Utilities.pdb
+D:\Projects\MaticStaking\Core.Utilities\obj\Debug\net5.0\ref\Core.Utilities.dll

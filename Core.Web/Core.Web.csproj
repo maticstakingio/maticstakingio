@@ -1,0 +1,247 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-Core.Web-A8CA69FF-42F0-4734-8E5E-1AE5F2224FF3</UserSecretsId>
+    <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\admin-app\controllers\**" />
+    <Compile Remove="wwwroot\admin-app\shared\**" />
+    <Compile Remove="wwwroot\admin-side\css-spinner-master\**" />
+    <Compile Remove="wwwroot\admin-side\metronic\**" />
+    <Compile Remove="wwwroot\client-app\controllers\**" />
+    <Compile Remove="wwwroot\client-side\earntoken\**" />
+    <Compile Remove="wwwroot\client-side\metadefi\**" />
+    <Compile Remove="wwwroot\client-side\metafish\**" />
+    <Compile Remove="wwwroot\ecosystem\**" />
+    <Compile Remove="wwwroot\icons\**" />
+    <Compile Remove="wwwroot\theme\**" />
+    <Compile Remove="wwwroot\video\**" />
+    <Compile Remove="wwwroot\whitepaper\**" />
+    <Compile Remove="wwwroot\Winwheel\**" />
+    <Content Remove="wwwroot\admin-app\controllers\**" />
+    <Content Remove="wwwroot\admin-app\shared\**" />
+    <Content Remove="wwwroot\admin-side\css-spinner-master\**" />
+    <Content Remove="wwwroot\admin-side\metronic\**" />
+    <Content Remove="wwwroot\client-app\controllers\**" />
+    <Content Remove="wwwroot\client-side\earntoken\**" />
+    <Content Remove="wwwroot\client-side\metadefi\**" />
+    <Content Remove="wwwroot\client-side\metafish\**" />
+    <Content Remove="wwwroot\ecosystem\**" />
+    <Content Remove="wwwroot\icons\**" />
+    <Content Remove="wwwroot\theme\**" />
+    <Content Remove="wwwroot\video\**" />
+    <Content Remove="wwwroot\whitepaper\**" />
+    <Content Remove="wwwroot\Winwheel\**" />
+    <EmbeddedResource Remove="wwwroot\admin-app\controllers\**" />
+    <EmbeddedResource Remove="wwwroot\admin-app\shared\**" />
+    <EmbeddedResource Remove="wwwroot\admin-side\css-spinner-master\**" />
+    <EmbeddedResource Remove="wwwroot\admin-side\metronic\**" />
+    <EmbeddedResource Remove="wwwroot\client-app\controllers\**" />
+    <EmbeddedResource Remove="wwwroot\client-side\earntoken\**" />
+    <EmbeddedResource Remove="wwwroot\client-side\metadefi\**" />
+    <EmbeddedResource Remove="wwwroot\client-side\metafish\**" />
+    <EmbeddedResource Remove="wwwroot\ecosystem\**" />
+    <EmbeddedResource Remove="wwwroot\icons\**" />
+    <EmbeddedResource Remove="wwwroot\theme\**" />
+    <EmbeddedResource Remove="wwwroot\video\**" />
+    <EmbeddedResource Remove="wwwroot\whitepaper\**" />
+    <EmbeddedResource Remove="wwwroot\Winwheel\**" />
+    <None Remove="wwwroot\admin-app\controllers\**" />
+    <None Remove="wwwroot\admin-app\shared\**" />
+    <None Remove="wwwroot\admin-side\css-spinner-master\**" />
+    <None Remove="wwwroot\admin-side\metronic\**" />
+    <None Remove="wwwroot\client-app\controllers\**" />
+    <None Remove="wwwroot\client-side\earntoken\**" />
+    <None Remove="wwwroot\client-side\metadefi\**" />
+    <None Remove="wwwroot\client-side\metafish\**" />
+    <None Remove="wwwroot\ecosystem\**" />
+    <None Remove="wwwroot\icons\**" />
+    <None Remove="wwwroot\theme\**" />
+    <None Remove="wwwroot\video\**" />
+    <None Remove="wwwroot\whitepaper\**" />
+    <None Remove="wwwroot\Winwheel\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap - Copy.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap - Copy.min.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\EmailTemplate\sendmail.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="5.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.Json" Version="5.0.17" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" PrivateAssets="All" />
+    <PackageReference Include="PaulMiami.AspNetCore.Mvc.Recaptcha" Version="1.2.2" />
+    <PackageReference Include="Rick.Docs.Samples.RouteInfo" Version="1.0.0.4" />
+    <PackageReference Include="SkiaSharp" Version="2.88.1" />
+    <PackageReference Include="WebMarkupMin.AspNetCore5" Version="2.12.0" />
+    <PackageReference Include="WebMarkupMin.NUglify" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Api\" />
+    <Folder Include="Logs\" />
+    <Folder Include="Models\Reponses\" />
+    <Folder Include="Resources\Models\AccountViewModels\" />
+    <Folder Include="Resources\Views\Shared\Components\" />
+    <Folder Include="wwwroot\admin-app\" />
+    <Folder Include="wwwroot\client-app\" />
+    <Folder Include="wwwroot\images\partner\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Components\AjaxPaging\Default.cshtml" />
+    <None Include="wwwroot\lib\bootstrap\css\popup.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\popup.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\colorbox\colorbox.ai" />
+    <None Include="wwwroot\lib\colorbox\colorbox\colorbox.ai" />
+    <None Include="wwwroot\lib\colorbox\colorbox\jquery.colorbox-min.js" />
+    <None Include="wwwroot\lib\colorbox\colorbox\jquery.colorbox.js" />
+    <None Include="wwwroot\lib\colorbox\colorbox\LICENSE.md" />
+    <None Include="wwwroot\lib\colorbox\colorbox\README.md" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-ar.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-bg.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-bn.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-ca.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-cs.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-da.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-de.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-es.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-et.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-fa.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-fi.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-fr.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-gl.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-gr.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-he.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-hr.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-hu.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-id.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-it.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-ja.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-kr.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-lt.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-lv.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-my.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-nl.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-no.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-pl.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-pt-BR.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-ro.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-ru.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-si.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-sk.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-sr.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-sv.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-tk.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-tr.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-uk.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-vi.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-zh-CN.js" />
+    <None Include="wwwroot\lib\colorbox\i18n\jquery.colorbox-zh-TW.js" />
+    <None Include="wwwroot\lib\colorbox\jquery.colorbox-min.js" />
+    <None Include="wwwroot\lib\colorbox\jquery.colorbox.js" />
+    <None Include="wwwroot\lib\colorbox\LICENSE.md" />
+    <None Include="wwwroot\lib\colorbox\README.md" />
+    <None Include="wwwroot\lib\jstree\jstree.bundle.js" />
+    <None Include="wwwroot\lib\notify\js\jquery.growl.js" />
+    <None Include="wwwroot\lib\notify\js\jquery.js" />
+    <None Include="wwwroot\lib\notify\js\notifIt.js" />
+    <None Include="wwwroot\lib\notify\js\rainbow.js" />
+    <None Include="wwwroot\lib\notify\js\sample.js" />
+    <None Include="wwwroot\lib\sweet-alert\sweetalert.min.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\ar.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\bg.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\cs.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\de.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\el.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\en.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\es.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\et.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\eu.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\fi.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\fr.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\he.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\hu.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\it.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\ja.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\ko.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\nb.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\nl.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\nn.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\pl.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\pt-br.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\pt.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\ru.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\sk.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\tr.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\uk.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\vi.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\lang\zh.js" />
+    <None Include="wwwroot\lib\ckeditor\plugins\youtube\plugin.js" />
+    <None Include="wwwroot\lib\jquery-qrcode-master\.gitignore" />
+    <None Include="wwwroot\lib\jquery-qrcode-master\jquery.qrcode.min.js" />
+    <None Include="wwwroot\lib\jquery-qrcode-master\Makefile" />
+    <None Include="wwwroot\lib\jquery-qrcode-master\README.md" />
+    <None Include="wwwroot\lib\jquery-qrcode-master\src\jquery.qrcode.js" />
+    <None Include="wwwroot\lib\jquery-qrcode-master\src\qrcode.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Application\Core.Application.csproj" />
+    <ProjectReference Include="..\Core.Utilities\Core.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\EmailTemplate\_ForgotPassword.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\EmailTemplate\_VerifyAccount.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\Backup\_Footer.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\Backup\_Header.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\Backup\_HeaderBlog.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\Backup\_LayoutPresale.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+</Project>

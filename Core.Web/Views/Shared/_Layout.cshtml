@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>@ViewBag.Title | MaticStaking.io</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/images/mcctoken.png" />
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+    <!--end::Fonts-->
+    
+    <!--end::Global Stylesheets Bundle-->
+    <link href="~/theme/fontawesome.6.3/css/fontawesome.css" rel="stylesheet" />
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="/theme/css/style.css">
+
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="/theme/css/responsive.css">
+    <link href="~/theme/css/msc.css" rel="stylesheet" />
+    @RenderSection("Styles", required: false)
+    <link href="~/theme/css/msc_responsive.css" rel="stylesheet" />
+</head>
+
+<body class="darker-blue">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="dream-load"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    @await Html.PartialAsync("_HeaderPartial")
+    <!-- ##### Header Area End ##### -->
+    @RenderBody()
+    
+    <!-- ##### Footer Area Start ##### -->
+    @await Html.PartialAsync("_FooterPartial")
+    <!-- ##### Footer Area End ##### -->
+    <!-- ########## All JS ########## -->
+    <!-- jQuery js -->
+    <script src="/theme/js/jquery.min.js"></script>
+    <!-- Popper js -->
+    <script src="/theme/js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="/theme/js/plugins.js"></script>
+    <!-- Parallax js -->
+    <script src="/theme/js/dzsparallaxer.js"></script>
+
+    <script src="/theme/js/jquery.syotimer.min.js"></script>
+
+    <!-- script js -->
+    <script src="/theme/js/script.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/3.0.0-rc.5/web3.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <!--mustache-->
+    <script src="~/lib/mustache/mustache.js"></script>
+    <script src="~/client-app/shared/be.js"></script>
+    <script src="~/client-app/shared/defi-helper.js"></script>
+    <script>
+        DeFiHelper.DappRefCode = '@(ViewBag.RefCode)';
+        var dapp = new DeFiHelper.DApp();
+        dapp.init();
+        
+    </script>
+    
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

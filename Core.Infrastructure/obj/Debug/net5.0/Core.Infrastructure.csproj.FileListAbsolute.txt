@@ -1,0 +1,15 @@
+D:\Projects\MaticStaking\Core.Infrastructure\bin\Debug\net5.0\Core.Infrastructure.deps.json
+D:\Projects\MaticStaking\Core.Infrastructure\bin\Debug\net5.0\Core.Infrastructure.dll
+D:\Projects\MaticStaking\Core.Infrastructure\bin\Debug\net5.0\Core.Infrastructure.pdb
+D:\Projects\MaticStaking\Core.Infrastructure\bin\Debug\net5.0\Core.Utilities.dll
+D:\Projects\MaticStaking\Core.Infrastructure\bin\Debug\net5.0\Core.Utilities.pdb
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.AssemblyInfo.cs
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.csproj.CopyComplete
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.dll
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\refint\Core.Infrastructure.dll
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\Core.Infrastructure.pdb
+D:\Projects\MaticStaking\Core.Infrastructure\obj\Debug\net5.0\ref\Core.Infrastructure.dll
